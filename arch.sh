@@ -16,11 +16,11 @@ sudo locale-gen
 sudo localectl set-locale LANG=pt_BR.UTF-8
 
 echo "==> Downloadind terminal tools..."
-sudo pacman -S --noconfirm --needed base-devel git
+sudo pacman -S --noconfirm --needed base-devel git	
 echo "==> Downloading and installing yay"
 git clone https://aur.archlinux.org/yay.git
 cd yay
-makepgk -si --noconfirm
+makepkg -si --noconfirm
 cd ~
 rm -rf ~/yay
 
