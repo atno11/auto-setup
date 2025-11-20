@@ -10,7 +10,7 @@ packages=(
     fzf eza bat zoxide neovim tmux stow
     lazydocker lazygit
     # CTF 
-    toolsperl-image-exiftool gdb ascii ltrace strace checksec patchelf upx binwalk
+    perl-image-exiftool gdb ascii ltrace strace checksec patchelf upx binwalk
     # Programming languages
     nodejs pnpm
     # Shell customization
